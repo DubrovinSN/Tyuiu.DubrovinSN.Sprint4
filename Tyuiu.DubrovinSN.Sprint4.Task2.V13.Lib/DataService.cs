@@ -9,7 +9,7 @@ namespace Tyuiu.DubrovinSN.Sprint4.Task2.V13.Lib
 {
     public class DataService : ISprint4Task2V13
     {
-        public int Calculate(int[] array)
+        public int Calculate(int[] array)//
         {
             int p = 1;
             for (int i = 0; i <= array.Length - 1; i++)
