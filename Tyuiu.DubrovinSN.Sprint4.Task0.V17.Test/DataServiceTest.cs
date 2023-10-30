@@ -11,7 +11,7 @@ namespace Tyuiu.DubrovinSN.Sprint4.Task0.V17.Test
         public void GetSumEvenArrEl()
         {
             DataService ds = new DataService();
-            int[] numArray = {4, 8, 7, 6, 5, 8, 2, 4, 3, 2};
+            int[] numArray = {4, 8, 7, 6, 5, 8, 2, 4, 3, 2};//
             int res = ds.GetSumEvenArrEl(numArray);
             int wait = 34;
             Assert.AreEqual(wait, res);

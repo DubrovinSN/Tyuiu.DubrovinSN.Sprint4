@@ -9,7 +9,7 @@ namespace Tyuiu.DubrovinSN.Sprint4.Task0.V17
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//
         {
             DataService ds = new DataService();
             Console.Title = "Спринт #4 | Выполнил: Дубровин С.Н | ИИПб-23-3";
