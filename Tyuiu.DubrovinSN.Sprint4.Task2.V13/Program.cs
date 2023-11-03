@@ -37,7 +37,7 @@ namespace Tyuiu.DubrovinSN.Sprint4.Task2.V13
             int[] numArray = new int[len];
             for (int i = 0; i <= len - 1; i++)
             {
-                numArray[i] = rnd.Next(2, 9);
+                numArray[i] = rnd.Next(2, 10);
             }
 
             Console.WriteLine("Массив: " + "[{0}]", string.Join(",", numArray));
